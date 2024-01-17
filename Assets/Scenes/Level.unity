@@ -175,10 +175,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6658110342295501455, guid: 16a748c9df55ff042ad71fd778f6552c, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -535,7 +531,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4286325156698203694, guid: b6e84ceeaea18cb45b19fe4cc8d709c3, type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"moveForce","value":{"$content":3.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"moveForce","value":{"$content":5.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"airDragFactor","value":{"$content":2.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"inclineFactor","value":{"$content":0.5,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"decelFactor","value":{"$content":2.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
@@ -585,6 +581,14 @@ PrefabInstance:
     - target: {fileID: 8418734620104258154, guid: b6e84ceeaea18cb45b19fe4cc8d709c3, type: 3}
       propertyPath: m_Mass
       value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8418734620104258154, guid: b6e84ceeaea18cb45b19fe4cc8d709c3, type: 3}
+      propertyPath: m_LinearDrag
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8418734620104258154, guid: b6e84ceeaea18cb45b19fe4cc8d709c3, type: 3}
+      propertyPath: m_GravityScale
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
